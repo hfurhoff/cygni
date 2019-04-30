@@ -8,4 +8,4 @@ To join an existing game, send a POST-request to /api/games/{id}/join with your 
 
 To make a move, send a POST-request to /api/games/{id}/move with your name and move in the request-body as such: {"name": "YourName", "move": "YourMove"}. Allowed moves are rock, paper and scissor. 
 
-To view the state of a game, send a GET-request to /api/games/{id}. If both players have made their moves the outcome can be viewed, otherwise no information is given.
+To view the state of a game, send a GET-request to /api/games/{id}. If both players have made their moves the outcome can be viewed.
